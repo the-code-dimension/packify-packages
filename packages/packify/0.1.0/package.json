@@ -1,0 +1,9 @@
+{
+    "description": "The Packify package manager",
+    "dependencies": [],
+    "files": {
+        "installation": ["install.sql"],
+        "removal": ["remove.sql"],
+        "update": null
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Packify Package Repository",
+    "description": "The official Packify package repository",
+    "maintainers": [
+        {
+            "name": "Will",
+            "email": "code-dimension@protonmail.com"
+        }
+    ],
+    "endpoints": {
+        "raw_file": "https://raw.githubusercontent.com/the-code-dimension/packify-packages/main/%",
+        "listing": "https://api.github.com/repos/the-code-dimension/packify-packages/git/trees/main?recursive=1"
+    }
+}
