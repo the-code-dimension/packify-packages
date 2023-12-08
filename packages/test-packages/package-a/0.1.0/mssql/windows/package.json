@@ -1,0 +1,25 @@
+{
+    "description": "A package for testing Packify functionality",
+    "scope": "instance",
+    "dependencies": [
+        {
+            "package": "package-b==0.1.0",
+            "targets": {
+                "database": "PackageB"
+            }
+        }
+    ],
+    "files": {
+        "installation": [],
+        "removal": [],
+        "update": null
+    },
+    "parameters": {
+        "targets": {
+            "database": {
+                "method": "substitution",
+                "value": "Database!"
+            }
+        }
+    }
+}
